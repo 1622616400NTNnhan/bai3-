@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Nhập tuổi của bạn: ");
+        int age = scanner.nextInt();
+
+        scanner.nextLine();
+
+        System.out.print("Nhập một câu bất kỳ: ");
+        String sentence = scanner.nextLine();
+        System.out.println("Tuổi của bạn là: " + age);
+        System.out.println("Câu bạn đã nhập: " + sentence);
+    }
+}
