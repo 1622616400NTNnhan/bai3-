@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("so 1: ");
+        float num1 = scanner.nextFloat();
+        System.out.print("so 2: ");
+        float num2 = scanner.nextFloat();
+        float average = (num1 + num2) / 2;
+
+        System.out.println("tong trung binh: " + average);
+    }
+}
