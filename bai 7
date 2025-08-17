@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Nhập một câu hoàn chỉnh
+        System.out.print("Enter a full sentence: ");
+        String sentence = scanner.nextLine();
+
+        // In lại câu vừa nhập
+        System.out.println("You entered: " + sentence);
+    }
+}
